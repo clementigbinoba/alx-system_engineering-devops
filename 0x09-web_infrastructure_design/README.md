@@ -2,5 +2,5 @@
 
 ## Description
 
-This project contains links to diagrams representing different web infrastructures.
-Its goal is to understand, on a very high-level, how web infrastructures are organized and what are their components.
+The project links diagrams of various web infrastructures.
+It aims to grasp the high-level organization and components of web infrastructures..
