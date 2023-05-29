@@ -12,7 +12,9 @@ Web Server: The software or hardware that accepts HTTP or HTTPS requests and ret
 Application Server: Responsible for installing, operating, and hosting applications and related services for end users, IT services, and organizations. It enables the hosting and delivery of high-end consumer or business applications.
 Database: Stores organized information that can be easily accessed, managed, and updated.
 Server-Client Communication: Communication between the server and the client (user's computer) takes place over the internet network using the TCP/IP protocol suite.
-Issues With This Infrastructure:
+
+## Issues With This Infrastructure: {"style = "font-size : larger;"}
+
 
 Single Point of Failure (SPOF): This infrastructure has multiple SPOFs, meaning that if any critical component fails, such as the MySQL database server, the entire website becomes inaccessible.
 Downtime During Maintenance: Performing maintenance checks requires temporarily taking down components or the entire server. Since there is only one server, this results in downtime for the website.
@@ -21,6 +23,3 @@ Limited Scalability: Scaling this infrastructure is challenging due to the conce
 
 
 
-User
-the definition of the above is very long kindly give short defination 
-ChatGPT
