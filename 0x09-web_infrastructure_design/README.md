@@ -2,6 +2,7 @@
 
 ## Description
 
+<<<<<<< HEAD
 This project covers the following concept;
 
 What is a server;
@@ -18,3 +19,7 @@ It provides an environment for running application code and offers various servi
 
 What is the role of the database
 It used  in storing, managing, and organizing structured data in a structured and efficient manner
+=======
+The project links diagrams of various web infrastructures.
+It aims to grasp the high-level organization and components of web infrastructures..
+>>>>>>> e37e341c32f3e1b0cc379299263859ff6bec3136
