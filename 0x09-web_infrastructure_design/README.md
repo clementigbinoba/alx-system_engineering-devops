@@ -34,7 +34,7 @@ Application server vs web server
 
 ## Task 0: Simple web stack
 
-Description:
+## Description:
 A simple web stack refers to a basic web infrastructure that hosts a website accessible via the domain www.foobar.com. This infrastructure lacks firewalls and SSL certificates for network protection. The server's resources, including CPU, RAM, and SSD, are shared among the components, such as the database and application server.
 
 ## Specifics About This Infrastructure:
