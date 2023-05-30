@@ -1,5 +1,5 @@
 # 0x09. Web infrastructure design
-### Concepts
+## Concepts
 DNS
 
 Monitoring
@@ -29,6 +29,8 @@ What is HTTPS
 What is a firewall
 
 Application server vs web server
+
+# TASK
 
 ## Task 0: Simple web stack
 
