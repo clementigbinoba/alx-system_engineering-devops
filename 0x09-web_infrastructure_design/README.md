@@ -13,8 +13,7 @@ Application Server: Responsible for installing, operating, and hosting applicati
 Database: Stores organized information that can be easily accessed, managed, and updated.
 Server-Client Communication: Communication between the server and the client (user's computer) takes place over the internet network using the TCP/IP protocol suite.
 
-## Issues With This Infrastructure: {"style = "font-size : larger;"}
-
+## Issues With This Infrastructure: 
 
 Single Point of Failure (SPOF): This infrastructure has multiple SPOFs, meaning that if any critical component fails, such as the MySQL database server, the entire website becomes inaccessible.
 Downtime During Maintenance: Performing maintenance checks requires temporarily taking down components or the entire server. Since there is only one server, this results in downtime for the website.
