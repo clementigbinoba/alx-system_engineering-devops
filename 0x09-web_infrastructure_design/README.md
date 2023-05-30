@@ -61,33 +61,33 @@ This is a distributed web infrastructure that reduces traffic to the primary ser
 ## Specifics:
 Load balancer: HAProxy with Round Robin algorithm for fair distribution based on server weights.
 
-## Setup: Active-Passive configuration enabled by the HAProxy load balancer, where one node is active and the other is on standby.
+ Setup: Active-Passive configuration enabled by the HAProxy load balancer, where one node is active and the other is on standby.
 
-## Primary-Replica cluster: One server acts as the Primary server for read/write requests, while the other server acts as a Replica for read requests. Data synchronization occurs when the Primary server performs write operations.
+ Primary-Replica cluster: One server acts as the Primary server for read/write requests, while the other server acts as a Replica for read requests. Data synchronization occurs when the Primary server performs write operations.
 
-## Difference between Primary and Replica nodes: Primary node manages the write operations, and the Replica node minimize read traffic to the Primary node.
+Difference between Primary and Replica nodes: Primary node manages the write operations, and the Replica node minimize read traffic to the Primary node.
 
-## Issues:
+Issues:
 Multiple Single Points Of Failure (SPOFs), are found in MySQL database server, load balancer server, and application server.
 
-## Security concerns: The system is very vulnerable to hackers because it Lack of SSL encryption for network transmission. Also no firewall were installed to stop access that are unauthorized IPs.
+Security concerns: The system is very vulnerable to hackers because it Lack of SSL encryption for network transmission. Also no firewall were installed to stop access that are unauthorized IPs.
 
-# 2: Secured and Monitored Web Infrastructure
+2: Secured and Monitored Web Infrastructure
 
 ## Description
 ## Specifics About This Infrastructure
-## Firewalls: Firewalls protect networks by acting as intermediaries between internal and external networks, blocking unwanted and unauthorized users.
+Firewalls: Firewalls protect networks by acting as intermediaries between internal and external networks, blocking unwanted and unauthorized users.
 
-## SSL Certificates: SSL certificates encrypt traffic between web servers and the external network, ensuring privacy, integrity, and identification while preventing attacks.
+SSL Certificates: SSL certificates encrypt traffic between web servers and the external network, ensuring privacy, integrity, and identification while preventing attacks.
 
-## Monitoring Clients: Monitoring clients analyze and monitor servers and the external network, providing metrics and alerts on server performance, health, and operations to administrators.
+Monitoring Clients: Monitoring clients analyze and monitor servers and the external network, providing metrics and alerts on server performance, health, and operations to administrators.
 
-## Issues:
+ Issues:
 1. SSL Termination: Terminating SSL at the load balancer level leaves traffic between the load balancer and web servers unencrypted.
 2. Single MySQL Server: Having only one MySQL server is not scalable and creates a single point of failure.
 3. Identical Server Components: Servers with the same components contend for resources, leading to poor performance and troubleshooting difficulties. This setup lacks scalability.
 
-# 3: Scaled Up Web Infrastructure
+3: Scaled Up Web Infrastructure
 
 ## Description
 In this scaled-up version of the Secured and Monitored Web Infrastructure, all single points of failure (SPOFs) have been eliminated. Major components, such as web servers, application servers, and database servers, have been relocated to separate GNU/Linux servers. Each server is protected by a firewall and is individually monitored. 
@@ -95,7 +95,7 @@ In this scaled-up version of the Secured and Monitored Web Infrastructure, all s
 ## Specifics About This Infrastructure:
 - Each server is safeguarded by a dedicated firewall, providing protection against unwanted access.
   
-## Issues:
+Issues:
 - High maintenance costs: The infrastructure expansion requires additional server purchases and increased electricity consumption, resulting in increased operational expenses. Allocation of company funds is necessary for server acquisition and ongoing electricity costs for both new and existing servers.
 
 ## Author
