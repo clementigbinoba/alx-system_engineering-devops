@@ -99,4 +99,4 @@ Issues:
 - High maintenance costs: The infrastructure expansion requires additional server purchases and increased electricity consumption, resulting in increased operational expenses. Allocation of company funds is necessary for server acquisition and ongoing electricity costs for both new and existing servers.
 
 ## Author
-CLEMENT IGBINOBA
+CLEMENT-IGBINOBA AND MARY-OGBUE
