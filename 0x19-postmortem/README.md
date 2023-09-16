@@ -1,33 +1,32 @@
 # Postmortem
 
-Learning how to write an Incident Report, also referred to as a Postmortem. This postmortem follows the guidelines used closely by google engineers to file reports. The report is made up of five parts, an issue summary, a timeline, root cause analysis, resolution and recovery, and lastly, corrective and preventative measures. Lets review each of these parts in detail.
+Master the art of composing an Incident Report, also recognized as a Postmortem, in accordance with the stringent protocols followed by Google engineers for filing reports. This comprehensive report comprises five essential segments:
 
 ### Issue Summary
 
-- short summary (5 sentences)
-- list the duration along with start and end times (include timezone)
-- state the impact (most user requests resulted in 500 errors, at peak 100%)
-- close with root cause
+- Craft a succinct executive summary (limited to 5 sentences).
+- Specify the duration, commencing with precise start and end times (inclusive of the relevant timezone).
+- Articulate the magnitude of the impact (e.g., a majority of user requests culminated in 500 errors, with the pinnacle impact rate peaking at 100%).
+- Conclude by elucidating the root cause.
 
 ### Timeline
 
-- list the timezone
-- covers the outage duration
-- when outage began
-- when staff was notified
-- actions, events, …
-- when service was restored
+- Include timezone particulars.
+- Encompass the full outage timeline.
+- Note the onset of the outage.
+- Record the precise moment when staff members were alerted.
+- Elaborate on actions and significant occurrences.
+- Specify the moment when service was successfully restored.
 
 ### Root Cause
 
-- give a detailed explanation of event
-- do not sugarcoat
+- Furnish an exhaustive elucidation of the triggering incident, devoid of embellishment.
 
-### Resolution and recovery
+### Resolution and Recovery
 
-- give detailed explanation of actions taken (includes times)
+- Furnish a meticulous account of the measures taken in response, including precise timestamps.
 
 ### Corrective and Preventative Measures
 
-- itemized list of ways to prevent it from happening again
-- what can we do better next time?
+- Present an itemized roster of strategies to avert a recurrence.
+- Propose opportunities for enhancing future response and prevention protocols.
